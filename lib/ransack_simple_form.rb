@@ -16,8 +16,6 @@ module RansackSimpleForm
 
       search_form_for(*args, opts, &block)
     end
-
-    alias :simple_search_form_for :ransack_simple_form_for
   end
 
   class FormBuilder < SimpleForm::FormBuilder
