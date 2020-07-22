@@ -1,6 +1,7 @@
 require "ransack_simple_form/version"
 require 'simple_form'
 require 'ransack'
+require 'ransack/helpers/form_builder'
 
 module RansackSimpleForm
   module FormHelper
